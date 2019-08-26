@@ -1,0 +1,21 @@
+mutation{
+  addUser(addUser_input:{
+    firstname:"hola",
+    lastname:"hola",
+    nickname:"hola",
+    password:"1234rtfghgr",
+    email:"hola",
+    image:"dir_"
+  }){
+    id
+    firstname
+    lastname
+    nickname
+    password
+    email
+    image
+    control_active
+    createdAT
+    updateAT
+  }
+}
